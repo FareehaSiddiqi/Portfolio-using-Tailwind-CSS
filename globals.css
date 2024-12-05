@@ -1,0 +1,532 @@
+/* Reset all elements to remove default padding and margin */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f7f0f0; /* Light background */
+  color: #fff; /* White text color */
+  font-family: Arial, sans-serif; /* Font style for body */
+}
+
+
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+background-color: #f8f9fa;
+}
+
+.logo h2 {
+font-size: 24px;
+font-weight: bold;
+color: #333;
+}
+
+.navigate ul {
+display: flex;
+gap: 20px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.link {
+text-decoration: none;
+color: #333;
+font-size: 16px;
+font-weight: 500;
+transition: color 0.3s ease;
+}
+
+.link:hover {
+color: #0078d4;
+}
+
+.buttons {
+display: flex;
+gap: 15px; /* Equal space between buttons */
+}
+
+button {
+padding: 10px 15px;
+font-size: 16px;
+font-weight: 600;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.talk-btn {
+background-color: #0078d4;
+color: white;
+}
+
+.talk-btn:hover {
+background-color: #005a9e;
+}
+
+.cv-btn {
+background-color: #f8f9fa;
+color: #0078d4;
+border: 2px solid #0078d4;
+}
+
+.cv-btn:hover {
+background-color: #0078d4;
+color: white;
+}
+
+
+.container1 {
+width: 90%;
+margin: 0 auto;
+max-width: 1200px;
+}
+
+/* Header */
+.header1 {
+background-color: #0078d4;
+color: white;
+padding: 20px 0;
+text-align: center;
+}
+
+/* Navigation */
+.nav ul {
+display: flex;
+justify-content: center;
+list-style: none;
+background-color: #005a9e;
+padding: 10px 0;
+margin: 0;
+}
+
+.nav ul li {
+margin: 0 15px;
+}
+
+.nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+.nav ul li a:hover {
+text-decoration: underline;
+}
+
+/* Sections */
+.section1 {
+padding: 20px 0;
+color: black;
+background-color: #c5bebe;
+}
+
+h2 {
+color: #005a9e;
+border-bottom: 2px solid #005a9e;
+padding-bottom: 5px;
+}
+
+.skills-list {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.skills-list li {
+background-color: #0078d4;
+color: white;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+.exp {
+  color: #000;
+  
+  }
+
+
+
+.logo h2:hover {
+  color: rgb(7, 116, 131);
+}
+
+ul {
+  display: flex;
+  gap: 20px; /* Space between list items */
+  list-style: none; /* Remove bullet points */
+  font-size: 20px; /* Font size for list items */
+  color: rgba(22, 9, 197, 0.5);
+  padding: 10px;
+}
+
+.link {
+  color: rgb(19, 19, 26);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(36, 75, 201);
+}
+
+li {
+  color: aliceblue;
+}
+
+.btn {
+  padding: 10px;
+  color: indigo;
+}
+
+.btn:hover {
+  color: rgb(112, 29, 221);
+  background-color: rgba(126, 92, 218, 0.781);
+}
+
+button {
+  padding: 10px;
+  font-size: medium;
+  background-color: rgb(111, 17, 233);
+  color: black;
+  border-radius: 12px;
+}
+
+.contact {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 101px;
+}
+
+.info {
+  padding: 10px;
+  color: brown;
+}
+
+.info:hover {
+  color: rgb(160, 10, 85);
+  background-color: rgb(54, 163, 196);
+}
+
+
+
+.about {
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  align-items: flex-start; /* Align content to the left (default) */
+}
+
+.para {
+  display: flex; /* Use flexbox for paragraph */
+  justify-content: center; /* Center align text horizontally */
+  color: indigo; /* Set text color to indigo */
+  margin: 10px 0; /* Add some spacing between paragraphs */
+  font-size: 1.2rem; /* Optional: Adjust font size */
+  line-height: 1.5; /* Optional: Adjust line spacing for readability */
+}
+
+
+.contactUs {
+  margin-top: 200px;
+}
+
+.project {
+  margin-top: 200px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.img {
+  float: right; /* Floats the image to the left */
+  margin-right: 20px; /* Adds space between the image and text */
+  width: 200px; /* Sets a fixed width for the image */
+  height: 200px; /* Sets a fixed height for the image */
+  animation: floatUpDown 3s ease-in-out infinite; /* Animation for floating effect */
+}
+
+/* Animation for floating up and down */
+@keyframes floatUpDown {
+  0% {
+      transform: translateY(0); /* Starts at the normal position */
+  }
+  50% {
+      transform: translateY(-15px); /* Moves the image up */
+  }
+  100% {
+      transform: translateY(0); /* Returns to the normal position */
+  }
+}
+
+
+.info {
+  max-width: 600px; /* Control width of text */
+}
+
+h1.name {
+  font-size: 50px; /* Make the h1 large */
+  color: indigo; /* Indigo color for h1 */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px; /* Blue color for h2 */
+  color: #1e3a8a; /* Blue color */
+}
+
+p {
+  color: black; /* Black text for paragraph */
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+p:hover {
+  color: black; /* Keep black on hover */
+}
+
+.btn2 {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: indigo;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(112, 29, 221);
+}
+
+.btn3 {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn3:hover {
+  background-color: rgb(36, 75, 201);
+}
+
+.blog {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #2e3a59;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.blog-post {
+  margin-bottom: 30px;
+}
+
+.blog-post h2 {
+  font-size: 1.8rem;
+  color: indigo;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Optional: Add hover effect */
+.blog-post h2:hover {
+  color: darkblue;
+}
+
+.learning-material {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #4B0082; /* Indigo */
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333;
+}
+
+section {
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2e3a59;
+  margin-bottom: 15px;
+}
+
+.topic {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.topic h3 {
+  font-size: 1.8rem;
+  color: #4B0082; /* Indigo */
+  margin-bottom: 10px;
+}
+
+.topic p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.topic h3:hover {
+  color: #2e3a59; /* Darker shade on hover */
+  cursor: pointer;
+}
+
+/* Style for different sections */
+.chemistry {
+  background-color: #e7f5ff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.ai {
+  background-color: #fff0f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.teachingskills {
+  background-color: #f7ffe7;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+.social-btn.github {
+  background-color: #333;
+}
+
+.social-btn.vercel {
+  background-color: #000;
+}
+
+.social-btn.npm {
+  background-color: #cb3837;
+}
+
+
+
+
+.project-list {
+  display: flex;
+  flex-direction: column; /* Stack project cards vertically */
+  gap: 20px; /* Add space between each project card */
+  margin: 20px auto;
+  max-width: 1200px; /* Center and limit the width */
+}
+
+.project-item {
+  background-color: #ffffff; /* White background for each card */
+  border: 1px solid #ddd; /* Light border for separation */
+  border-radius: 8px; /* Smooth rounded corners */
+  padding: 20px; /* Internal padding for content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add hover effects */
+}
+
+.project-item:hover {
+  transform: scale(1.02); /* Slightly enlarge the card on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+.project-item h2 {
+  font-size: 1.5rem;
+  color: #0078d4; /* Blue for the project name */
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  font-size: 1rem;
+  color: #555; /* Subtle text color for descriptions */
+  margin-bottom: 15px;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0078d4; /* Button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; /* Rounded button */
+  transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #005a9e; /* Darker shade on hover */
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* Spacing between the icons */
+  padding: 1rem;
+  background-color: #f5f5f5; /* Optional background */
+}
+
+.social-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* Uniform size */
+  height: 40px;
+  font-size: 20px; /* Ensure font size consistency */
+  text-align: center;
+  border-radius: 50%; /* Circular buttons */
+  color: white;
+  background-color: #0077b5; /* Default background */
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.social-btn:hover {
+  background-color: #005580; /* Change on hover */
+}
+
+.linkedin { background-color: #0077b5; }
+.facebook { background-color: #4267B2; }
+.google-scholar { background-color: #d14836; }
+.github { background-color: #333; }
+.vercel { background-color: #000; }
+.npm { background-color: #CB3837; }
+.twi { background-color: #1DA1F2; }
+.blog { background-color: #f57c00; }
